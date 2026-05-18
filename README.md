@@ -74,10 +74,10 @@ A estrutura do projeto foi desenhada para ser limpa, escalável e demonstrar a a
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/supp3rguto/GreenShift-fullstack-project.git](https://github.com/supp3rguto/GreenShift-fullstack-project.git)
+git clone [https://github.com/supp3rguto/GreenShift-esg-poc.git](https://github.com/supp3rguto/GreenShift-esg-poc.git)
 
 # Navegue para a pasta do backend
-cd GreenShift-fullstack-project/backend
+cd  GreenShift-esg-poc/backend
 
 # Crie e ative um ambiente virtual
 python -m venv venv
@@ -103,7 +103,7 @@ O servidor backend estará rodando em `http://localhost:8000`.
 
 ```bash
 # Em outro terminal, navegue para a pasta do frontend
-cd GreenShift-fullstack-project/frontend
+cd GreenShift-esg-poc/frontend
 
 # Instale as dependências
 npm install
