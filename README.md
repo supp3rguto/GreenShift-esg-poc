@@ -1,5 +1,13 @@
 # GREENSHIFT - Calculadora de Pegada de Carbono para E-commerce
 
+## 📸 Galeria do Projeto
+
+| Dashboard Page |
+|:---:|
+| ![Dashboard Page](/imgs/dashboard.jpg) |
+| History Page |
+| ![History](/imgs/history.jpg) |
+
 ## 🚀 Sobre o Projeto
 
 O **GREENSHIFT** é uma aplicação full-stack projetada para trazer a sustentabilidade para o centro da logística de e-commerce. O objetivo foi construir uma ferramenta funcional que, a partir de um ponto de origem e destino, calcula não apenas a distância de uma rota, mas também estima a pegada de carbono da entrega com base em diferentes modais de transporte.
