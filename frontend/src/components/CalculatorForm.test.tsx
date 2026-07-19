@@ -4,7 +4,7 @@ import CalculatorForm from './CalculatorForm';
 
 describe('CalculatorForm Component', () => {
   it('deve renderizar os inputs de energia, transporte e lixo', () => {
-    render(<CalculatorForm onCalculate={jest.fn()} />);
+    render(<CalculatorForm onCalculate={jest.fn()} setIsLoading={jest.fn()} />);
 
     expect(screen.getByLabelText(/Energia/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Transporte/i)).toBeInTheDocument();
@@ -13,7 +13,7 @@ describe('CalculatorForm Component', () => {
 
   it('deve chamar a função onCalculate ao submeter o formulário', () => {
     const mockOnCalculate = jest.fn();
-    render(<CalculatorForm onCalculate={jest.fn()} setIsLoading={jest.fn()} />);
+    render(<CalculatorForm onCalculate={mockOnCalculate} />);
 
     const button = screen.getByRole('button', { name: /Calcular/i });
     
