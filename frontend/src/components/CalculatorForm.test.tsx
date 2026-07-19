@@ -13,7 +13,7 @@ describe('CalculatorForm Component', () => {
 
   it('deve chamar a função onCalculate ao submeter o formulário', () => {
     const mockOnCalculate = jest.fn();
-    render(<CalculatorForm onCalculate={mockOnCalculate} />);
+    render(<CalculatorForm onCalculate={jest.fn()} setIsLoading={jest.fn()} />);
 
     const button = screen.getByRole('button', { name: /Calcular/i });
     
